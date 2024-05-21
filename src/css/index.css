@@ -1,0 +1,112 @@
+.container {
+  width: min(100% - 30px, 1880px);
+  margin-inline: auto;
+}
+
+h1, h2, h3, h4, p, li, a, input, button {
+  color: #000;
+}
+
+/*-----------------------------------------------------------------*/
+/*    utility classes                                              */
+/*-----------------------------------------------------------------*/
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-right {
+  justify-content: right;
+}
+
+.place-center {
+  place-items: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+
+/*---------------------------------------------------------------*/
+/*    header                                                     */
+/*---------------------------------------------------------------*/
+
+header {
+  padding-top: 60px;
+  height: 100px;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.divisor {
+  margin: 20px 0;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.store-title {
+  width: 50%;
+}
+
+.header-icon {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.access-icon {
+  cursor: pointer;
+}
+
+.header-p-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(0 0 0 / 0.3);
+}
+
+
+/*------------------------------------------------------------*/
+/*    nav                                                     */
+/*------------------------------------------------------------*/
+
+nav ul {
+  gap: 45px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li, .lang-p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.lang-icon {
+  font-size: 30px;
+}

@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+<<<<<<< HEAD
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+=======
+import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom'
+import './css/index.css'
+>>>>>>> origin/main
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <App />
   </React.StrictMode>
 );
@@ -15,3 +22,10 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+=======
+    <Router>
+      <App />
+    </Router>
+  </React.StrictMode>
+);
+>>>>>>> origin/main

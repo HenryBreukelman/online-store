@@ -1,6 +1,10 @@
 {
   "name": "online-store",
   "version": "0.1.0",
+<<<<<<< HEAD
+=======
+  "homepage": "https://henrybreukelman.github.io/online-store",
+>>>>>>> origin/main
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -8,10 +12,19 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^6.23.1",
+>>>>>>> origin/main
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> origin/main
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +47,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+>>>>>>> origin/main
   }
 }

@@ -14,14 +14,14 @@ function Header() {
             <h1>storeName</h1>
           </div>
           <div className='flex w-20 align-center mr-35'>
-            <IoLocationOutline className='header-icon' />
+            <IoLocationOutline className='header-icon access-icon' />
             <div>
               <p className='header-p-title'>address</p>
               <p>123 Notre Dame Ave, Somewhere, CA</p>
             </div>
           </div>
           <div className='flex w-20 align-center'>
-            <BsTelephone className='header-icon' />
+            <BsTelephone className='header-icon access-icon' />
             <div>
               <p className='header-p-title'>phone</p>
               <p>(+0061) 3457 83 84</p>

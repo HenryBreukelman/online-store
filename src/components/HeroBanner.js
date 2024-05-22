@@ -2,7 +2,7 @@
 function HeroBanner () {
   return (
     <section className="hero-banner">
-      <div className="container hero-box">
+      <div className="container hero-box center">
         <div className="center hero-text">
           <div className="center">
             <h2>Store Name</h2>

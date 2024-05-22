@@ -4,6 +4,7 @@ import { PiShoppingCart } from "react-icons/pi";
 import { IoLocationOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -29,7 +30,9 @@ function Header() {
           </div>
           <div className='flex justify-right'>
             <CiSearch className='header-icon access-icon' />
-            <MdManageAccounts className='header-icon access-icon' />
+            <Link to='/form'>
+              <MdManageAccounts className='header-icon access-icon' />
+            </Link>
             <PiShoppingCart className='header-icon access-icon' />
             <p>$0.00</p>
           </div>

@@ -1,5 +1,5 @@
 .container {
-  width: min(100% - 30px, 1280px);
+  width: min(100% - 30px, 1880px);
   margin-inline: auto;
 }
 
@@ -122,8 +122,13 @@ nav ul li, .lang-p {
 /*------------------------------------------------------------*/
 
 .hero-banner {
+  width: 100svw;
   height: calc(100svh);
-  background-color: #c2b6b6;
+  background: #000 url(../../public/herobanner-background.jpg) top / cover no-repeat;
+}
+
+.hero-box {
+  height: 100%;
 }
 
 .hero-text {

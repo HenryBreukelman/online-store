@@ -11,8 +11,8 @@ function App() {
       <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path="/cart" element={<Cart />} />
-          <Route exact path='/notFound' element={<NotFound />} />
           <Route exact path='/product' element={<Product />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
     </main>
   );

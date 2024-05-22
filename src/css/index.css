@@ -1,5 +1,5 @@
 .container {
-  width: min(100% - 30px, 1880px);
+  width: min(100% - 30px, 1280px);
   margin-inline: auto;
 }
 
@@ -25,6 +25,11 @@ h1, h2, h3, h4, p, li, a, input, button {
 
 .justify-center {
   justify-content: center;
+}
+
+.center {
+  display: grid;
+  place-items: center;
 }
 
 .justify-right {
@@ -54,7 +59,7 @@ h1, h2, h3, h4, p, li, a, input, button {
 
 header {
   padding-top: 60px;
-  height: 100px;
+  height: 240px;
 }
 
 header p {
@@ -109,4 +114,45 @@ nav ul li, .lang-p {
 
 .lang-icon {
   font-size: 30px;
+}
+
+
+/*------------------------------------------------------------*/
+/*    hero banner                                             */
+/*------------------------------------------------------------*/
+
+.hero-banner {
+  height: calc(100svh);
+  background-color: #c2b6b6;
+}
+
+.hero-text {
+  width: 50%;
+  height: 100%;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+}
+
+.hero-text p {
+  text-align: center;
+  margin: 20px 0;
+  width: 80%;
+  font-size: 18px;
+}
+
+.hero-text input[type="button"] {
+  transition: all 0.25s ease-in-out;
+  width: 130px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: rgb(67, 39, 95);
+  color: #fff;
+}
+
+.hero-text input[type="button"]:hover {
+  background-color: #fff;
+  color: rgb(67, 39, 95);
 }

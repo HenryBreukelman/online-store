@@ -7,14 +7,14 @@ import Product from './pages/Product';
 
 function App() {
   return (
-    <main>
+    <>
       <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path="/cart" element={<Cart />} />
-          <Route exact path='/notFound' element={<NotFound />} />
-          <Route exact path='/product' element={<Product />} />
-        </Routes>
-    </main>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path="/cart" element={<Cart />} />
+        <Route exact path='/notFound' element={<NotFound />} />
+        <Route exact path='/product' element={<Product />} />
+      </Routes>
+    </>
   );
 }
 

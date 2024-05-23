@@ -45,7 +45,9 @@ function Header() {
         <div className='divisor'></div>
         <nav className='flex space-between'>
           <ul className='flex'>
-            <li>home</li>
+            <Link to='/' className="home-link">
+              <li>home</li>
+            </Link>
             <li>shop</li>
             <li>product</li>
             <li>pages</li>

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import CartList from "../components/CartList";
 
 function Cart() {
-  const items = []; // list of cart items
+  const items = [6, 3, 4]; // list of cart items
 
   return (
     <>

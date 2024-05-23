@@ -372,6 +372,10 @@ footer p {
   height: 100svh;
 }
 
+.exlamation {
+  font-size: 70px;
+}
+
 .not-found h2 {
   font-size: 52px;
 }
@@ -384,6 +388,7 @@ footer p {
   color: #fff;
   text-decoration: none;
 }
+
 
 /*------------------------------------------------------------*/
 /*    items                                                   */

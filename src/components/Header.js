@@ -21,7 +21,7 @@ function Header() {
             <IoLocationOutline className='header-icon access-icon' />
             <div>
               <p className='header-p-title'>address</p>
-              <p>123 Notre Dame Ave, Somewhere, CA</p>
+              <p>123 Notre Dame, CA</p>
             </div>
           </div>
           <div className='flex w-22 align-center'>
@@ -31,15 +31,17 @@ function Header() {
               <p>(+0061) 3457 83 84</p>
             </div>
           </div>
-          <div className='flex w-22 justify-right'>
-            <CiSearch className='header-icon access-icon' />
-            <Link to='/form'>
-              <MdManageAccounts className='header-icon access-icon' />
-            </Link>
-            <Link to='/cart'>
-              <PiShoppingCart className='header-icon access-icon' />
-            </Link>
-            <p>$0.00</p>
+          <div className='center justify-center w-22'>
+            <div className='flex justify-right'>
+              <CiSearch className='header-icon access-icon' />
+              <Link to='/form'>
+                <MdManageAccounts className='header-icon access-icon' />
+              </Link>
+              <Link to='/cart'>
+                <PiShoppingCart className='header-icon access-icon' />
+              </Link>
+              <p>$0.00</p>
+            </div>
           </div>
         </section>
         <div className='divisor'></div>

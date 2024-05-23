@@ -1,13 +1,17 @@
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import CartList from "../components/CartList";
 
-function Cart () {
+function Cart() {
+  const items = []; // list of cart items
+
   return (
-    <section>
+    <>
       <Header />
+      <CartList items={items} />
       <Footer />
-    </section>
+    </>
   );
 }
 

@@ -92,8 +92,13 @@ header p {
   font-weight: 500;
 }
 
+.home-link {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 35px;
+  text-decoration: none;
 }
 
 .divisor {
@@ -311,6 +316,43 @@ footer p {
   width: 28%;
   text-transform: uppercase;
   text-align: left;
+}
+
+
+/*------------------------------------------------------------*/
+/*    cart                                                    */
+/*------------------------------------------------------------*/
+
+.cart {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.cart h1 {
+  font-size: 30px;
+}
+
+.cart h2 {
+  font-size: 20px;
+}
+
+.empty-cart {
+  font-size: 20px;
+}
+
+.summary {
+  width: 320px;
+  padding: 20px;
+  background-color: rgb(221, 221, 221);
+}
+
+.summary p {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.summary button {
+  margin-top: 10px;
 }
 
 /*------------------------------------------------------------*/

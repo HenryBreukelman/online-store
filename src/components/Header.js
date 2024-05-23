@@ -12,7 +12,10 @@ function Header() {
       <header className='container'>
         <section className='flex'>
           <div className='store-title'>
-            <h1>storeName</h1>
+            <Link to='/' className="home-link">
+              <h1>storeName</h1>
+            </Link>
+            
           </div>
           <div className='flex w-22 align-center mr-35'>
             <IoLocationOutline className='header-icon access-icon' />
@@ -33,14 +36,18 @@ function Header() {
             <Link to='/form'>
               <MdManageAccounts className='header-icon access-icon' />
             </Link>
-            <PiShoppingCart className='header-icon access-icon' />
+            <Link to='/cart'>
+              <PiShoppingCart className='header-icon access-icon' />
+            </Link>
             <p>$0.00</p>
           </div>
         </section>
         <div className='divisor'></div>
         <nav className='flex space-between'>
           <ul className='flex'>
-            <li>home</li>
+            <Link to='/' className="home-link">
+              <li>home</li>
+            </Link>
             <li>shop</li>
             <li>product</li>
             <li>pages</li>

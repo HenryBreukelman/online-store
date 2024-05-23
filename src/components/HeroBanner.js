@@ -2,12 +2,15 @@
 function HeroBanner () {
   return (
     <section className="hero-banner">
-      <div className="container hero-box">
+      <div className="container hero-box center">
         <div className="center hero-text">
-          <div>
-            <h2>Store Name</h2>
+          <div className="center">
+            <h2>Discover Your Style</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illo et neque cupiditate eos quod vel, a assumenda ipsum harum dicta ea debitis perspiciatis, beatae aut veniam
+              Welcome to [Store Name], where fashion meets elegance. Explore our 
+              latest collection of chic, trendy, and timeless pieces crafted to 
+              elevate your wardrobe. Step into a world of style and sophistication 
+              today!
             </p>
             <input type="button" value="Shop" />
           </div>

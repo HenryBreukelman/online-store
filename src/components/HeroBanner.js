@@ -4,7 +4,7 @@ function HeroBanner () {
     <section className="hero-banner">
       <div className="container hero-box">
         <div className="center hero-text">
-          <div className="center">
+          <div>
             <h2>Store Name</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illo et neque cupiditate eos quod vel, a assumenda ipsum harum dicta ea debitis perspiciatis, beatae aut veniam

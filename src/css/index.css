@@ -167,9 +167,11 @@ nav ul li, .lang-p {
 
 .hero-text h2 {
   font-size: 32px;
+  color: #fff;
 }
 
 .hero-text p {
+  color: #fff;
   text-align: center;
   margin: 20px 0;
   width: 80%;
@@ -324,5 +326,13 @@ footer p {
   font-size: 32px;
 }
 
+.not-found button {
+  margin-top: 20px;
+}
+
+.link-home {
+  color: #fff;
+  text-decoration: none;
+}
 
 

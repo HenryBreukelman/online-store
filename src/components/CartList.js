@@ -10,16 +10,16 @@ function CartList (props) {
         <div>
           <h2>Items in your cart:</h2>
           {props.items.length > 0 ? (
-          <div>
-            <ul>
-              {props.items.map((item, index) => (
-                <div key={index}>
-                  {item}
-                </div>
-              ))}
-            </ul>
+            <div>
+              <div>
+                {props.items.map((item, index) => (
+                  <div key={index}>
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
-            ) : (
+          ) : (
             <div className="empty-cart">
               <p>Your cart is empty</p>
             </div>

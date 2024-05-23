@@ -13,7 +13,9 @@ function CartList (props) {
           <div>
             <ul>
               {props.items.map((item, index) => (
-                <li key={index}>{item}</li>
+                <div key={index}>
+                  {item}
+                </div>
               ))}
             </ul>
             </div>

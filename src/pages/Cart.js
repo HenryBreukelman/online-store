@@ -2,6 +2,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import CartList from "../components/CartList";
+import { motion } from 'framer-motion';
 
 function Cart() {
   const items = [
@@ -49,8 +50,15 @@ function Cart() {
   return (
     <>
       <Header />
-      <CartList items={items} />
-      <Footer />
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.5 }}
+      >
+        <CartList items={items} />
+        <Footer />
+      </motion.div>
     </>
   );
 }

@@ -168,7 +168,7 @@ nav ul li, .lang-p {
 
 .hero-banner {
   width: 100svw;
-  height: 100svh;
+  height: calc(100svh - 50px);
   background: #000 url(../../public/herobanner-background.jpg) top / cover no-repeat;
 }
 
@@ -349,12 +349,64 @@ footer p {
   margin-bottom: 60px;
 }
 
+.cart-list {
+  width: 65%;
+}
+
 .cart h1 {
   font-size: 30px;
 }
 
 .cart h2 {
   font-size: 20px;
+}
+
+.cart table, .cart th, .cart td {
+  border-collapse: collapse;
+  border-bottom: 1px solid #949494;
+}
+
+.cart th {
+  padding: 8px 8px;
+  text-align: left;
+}
+
+.cart td {
+  vertical-align: top;
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.cart-img {
+  width: 16%;
+}
+
+.cart-img img {
+  width: 85%;
+  min-width: 80px;
+}
+
+.cart-title {
+  padding-left: 12px;
+  width: 48%;
+}
+
+.cart-amount {
+  width: 20%;
+}
+
+.cart-amount div {
+  width: fit-content;
+  border: 1px solid #949494;
+}
+
+.cart-amount p {
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.cart-price, .cart-total {
+  width: 9%;
 }
 
 .empty-cart {
@@ -364,6 +416,7 @@ footer p {
 
 .summary {
   width: 25%;
+  height: fit-content;
   padding: 20px;
   background-color: rgb(221, 221, 221);
   border-top: 2px dotted rgb(125, 125, 125);

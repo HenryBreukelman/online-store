@@ -37,7 +37,7 @@ function SignIn() {
                 placeholder='Sign In'
                 disabled={!isValid}
                 /*style button*/
-                style={{ backgroundColor: isValid ? 'blue' : 'grey' }}
+                style={{ backgroundColor: isValid ? '#5a8db3' : '#d3d3d3' }}
               />
             </div>
           </form>

@@ -44,7 +44,7 @@ function Cart() {
       "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
       "amount": "1"
     }
-];; // list of cart items
+  ]; // list of cart items
 
   return (
     <>

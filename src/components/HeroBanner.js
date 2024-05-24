@@ -12,7 +12,7 @@ function HeroBanner () {
               elevate your wardrobe. Step into a world of style and sophistication 
               today!
             </p>
-            <input type="button" value="Shop" />
+            <button>Shop</button>
           </div>
         </div>
       </div>

@@ -3,7 +3,8 @@
   margin-inline: auto;
 }
 
-h1, h2, h3, h4, p, li, a, input, button {
+h1, h2, h3, h4, p, li, a, input, button, select {
+  font-family: "Poppins", sans-serif;
   color: #000;
 }
 
@@ -124,6 +125,10 @@ h1 {
   margin-right: 15px;
 }
 
+.header-icon:hover {
+  color: #5a8db3;
+}
+
 .access-icon {
   cursor: pointer;
 }
@@ -151,6 +156,10 @@ nav ul li {
   cursor: pointer;
 }
 
+nav ul li:hover {
+  color: #5a8db3;
+}
+
 nav ul li, .lang-p {
   text-transform: uppercase;
   font-weight: 600;
@@ -160,6 +169,7 @@ nav ul li, .lang-p {
 .lang-icon {
   font-size: 30px;
 }
+
 
 
 /*------------------------------------------------------------*/
@@ -266,13 +276,7 @@ nav ul li, .lang-p {
 
 .footer-links {
   background-color: rgb(245 245 245);
-  padding-bottom: 20px;
-}
-
-.footer-divisor {
-  margin-bottom: 40px;
-  height: 4px;
-  background-color: #000;
+  padding: 40px 0 60px;
 }
 
 .footer-email-input {
@@ -284,11 +288,11 @@ nav ul li, .lang-p {
   font-size: 18px;
 }
 
-button {
+button, input[type=submit] {
   display: block;
   width: 160px;
   height: 48px;
-  background-color: #000;
+  background-color: #5a8db3;
   color: #fff;
   border-radius: 8px;
   font-size: 18px;
@@ -414,11 +418,12 @@ footer p {
   text-align: center;
 }
 
+
 .summary {
   width: 25%;
   height: fit-content;
   padding: 20px;
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(221 221 221 / 0.4);
   border-top: 2px dotted rgb(125, 125, 125);
   border-bottom: 2px dotted rgb(125, 125, 125);
 }
@@ -525,9 +530,7 @@ span {
 
 select {
   margin-top: 4px;
-  position: absolute;
-  right: 30px;
-  width: 115px;
+  width: 140px;
   height: 35px;
   font-size: 16px;
   font-weight: 600;

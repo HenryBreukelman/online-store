@@ -35,7 +35,7 @@ function Items() {
 
   return (
     <section className='container'>
-      <div className='title flex'>
+      <div className='title flex space-between'>
         <h2>FEATURED PRODUCTS</h2>
         <select onChange={handleSort}>
           <option value="">Sort by</option>

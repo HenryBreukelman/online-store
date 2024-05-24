@@ -40,7 +40,9 @@ function Header() {
               <Link to='/cart'>
                 <PiShoppingCart className='header-icon access-icon' />
               </Link>
-              <p>$0.00</p>
+              <div className='flex align-center'>
+                <p>$0.00</p>
+              </div>
             </div>
           </div>
         </section>

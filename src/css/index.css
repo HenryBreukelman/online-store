@@ -403,6 +403,7 @@ footer p {
 .cart-amount p {
   padding: 3px 5px;
   text-align: center;
+  cursor: pointer;
 }
 
 .cart-price, .cart-total {

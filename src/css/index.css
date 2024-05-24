@@ -546,10 +546,6 @@ select {
   cursor: pointer;
 }
 
-select option {
-
-}
-
 .title {
   margin-top: 50px;
   height: 45px;

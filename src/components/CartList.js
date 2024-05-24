@@ -11,13 +11,28 @@ function CartList (props) {
           <h2>Items in your cart:</h2>
           {props.items.length > 0 ? (
             <div>
-              <div>
-                {props.items.map((item, index) => (
-                  <div key={index}>
-                    {item}
-                  </div>
-                ))}
-              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th></th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {props.items.map((item) => (
+                    <tr key={item.id}>
+                      <td><img src={item.image} alt={item.title} className="cart-img"/></td>
+                      <td className="cart-title">{item.title}</td>
+                      <td className="cart-amount">{item.amount}</td>
+                      <td className="cart-price">{item.price}</td>
+                      <td className="cart-total">{item.price * item.amount}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           ) : (
             <div className="empty-cart">

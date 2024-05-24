@@ -168,7 +168,7 @@ nav ul li, .lang-p {
 
 .hero-banner {
   width: 100svw;
-  height: 100svh;
+  height: calc(100svh - 50px);
   background: #000 url(../../public/herobanner-background.jpg) top / cover no-repeat;
 }
 
@@ -355,6 +355,23 @@ footer p {
 
 .cart h2 {
   font-size: 20px;
+}
+
+.cart td {
+  vertical-align: top;
+  padding: 5px 0;
+}
+
+table {
+  border-bottom: 3px solid #000;
+}
+
+.cart-img {
+  height: 100px;
+}
+
+.cart-title {
+  width: 300px;
 }
 
 .empty-cart {

@@ -1,7 +1,8 @@
 
 function CartList (props) {
-  const totalNumber = "43"
-  const totalCost = "$234"
+  const totalNumber = props.items.reduce((acc, item) => acc + Number(item.amount), 0);
+  const totalCost = 
+    props.items.reduce((acc, item) => acc + item.price * item.amount, 0).toFixed(2);
 
   return (
     <section className="cart container">

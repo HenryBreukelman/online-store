@@ -31,9 +31,9 @@ function CartList (props) {
                       <td className="cart-title">{item.title}</td>
                       <td className="cart-amount">
                         <div className="flex">
-                          <p>+</p>
-                          <p>{item.amount}</p>
                           <p>-</p>
+                          <p>{item.amount}</p>
+                          <p>+</p>
                         </div>
                       </td>
                       <td className="cart-price">${item.price}</td>

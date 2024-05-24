@@ -12,8 +12,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path="/cart" element={<Cart />} />
-        <Route exact path='/product' element={<Product />} />
-        <Route exact path='/form' element={<Form />} />
+        <Route exact path='/product/:slug' element={<Product />} />
+        <Route exact path='/form' element={<Form />} />'
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

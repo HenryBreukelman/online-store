@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Items() {
   const [items, setItems] = useState([]);
@@ -47,7 +48,7 @@ function Items() {
       {Array.isArray(items) && items.map(item => (
         <div key={item.id} className="item">
           <div className="item-img">
-            <img src={item.image} alt={item.title} />
+            <Link to ={`/product/${item.id}`}><img src={item.image} alt={item.title} /></Link>
           </div>
           <h2 className='description'>{item.title}</h2>
           <p><span>${item.price}</span></p>

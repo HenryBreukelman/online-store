@@ -372,9 +372,11 @@ footer p {
 
 .cart h1 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .cart h2 {
+  margin-bottom: 20px;
   font-size: 20px;
 }
 
@@ -429,6 +431,7 @@ footer p {
 }
 
 .summary {
+  margin-top: 60px;
   width: 25%;
   height: fit-content;
   padding: 20px;
@@ -448,7 +451,7 @@ footer p {
 }
 
 .summary button {
-  margin: 10px 0;
+  margin: 10px 0 30px;
 }
 
 /*------------------------------------------------------------*/
@@ -758,6 +761,3 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
-input[type='number'] {
-  -moz-appearance: textfield;
-}

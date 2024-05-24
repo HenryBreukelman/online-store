@@ -628,6 +628,7 @@ select {
   font-weight: 300;
   line-height: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .quantity-input input {
@@ -667,13 +668,19 @@ select {
 
 .other-products {
   display: flex;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 480px;
-  border-top: 1px solid #ccc;
 }
 
-.other-products:last-child {
-  border-top: 1px solid #ccc;
+.other-products > h2 {
+  position: absolute;
+  right: 20;
+  bottom: 30;
+}
+
+.other-description {
+  margin: 15px 0;
+  color: rgb(82, 82, 82);
 }
 
 .product-status {
@@ -697,10 +704,16 @@ select {
   padding: 10px;
   text-align: left;
   display: flex;
-  border-top: 1px solid #ccc;
   flex-direction: column;
   margin-right: 21px;
+  margin-top: 50px;
   overflow: hidden;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
 }
 
 .product:last-child {
@@ -723,8 +736,17 @@ select {
 }
 
 .product p {
-  font-weight: bold;
   text-align: left;
+}
+
+.price-p {
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.other-p {
+  font-weight: 400;
 }
 
 .divider {

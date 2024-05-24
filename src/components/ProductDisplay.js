@@ -56,15 +56,15 @@ function ProductDisplay() {
           </p>
           <div className='quantity-cart'>
             <div className='quantity-input'>
-              <button 
+              <div 
                 className='quantity-button minus' 
-                onClick={handleDecrease}>-</button>
+                onClick={handleDecrease}>-</div>
               <input 
                 id='quantity' 
                 type='number' 
                 min='1' value={quantity} readOnly />
-              <button className='quantity-button plus' 
-                onClick={handleIncrease}>+</button>
+              <div className='quantity-button plus' 
+                onClick={handleIncrease}>+</div>
             </div>
             <button className='add-to-cart-button'>Add to Cart</button>
           </div>
@@ -82,7 +82,7 @@ function ProductDisplay() {
             <div key={product.id} className='product'>
               <img src={product.image} alt={product.title} />
               <h2 className='other-description'>{product.title}</h2>
-              <p>${product.price}</p>
+              <p className='price-p'>${product.price}</p>
               <p className='other-p'>{item.category}</p>
             </div>
           ))}

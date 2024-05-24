@@ -13,7 +13,6 @@ html {
   overflow-x: hidden; 
 }
 
-
 /*-----------------------------------------------------------------*/
 /*    utility classes                                              */
 /*-----------------------------------------------------------------*/
@@ -136,6 +135,7 @@ h1 {
 
 .access-icon {
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
 }
 
 .header-p-title {
@@ -159,6 +159,7 @@ nav ul {
 
 nav ul li {
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
 }
 
 nav ul li:hover {
@@ -300,6 +301,11 @@ button, input[type=submit] {
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
+  transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+  background-color: #3c6d92;
 }
 
 .footer-join {
@@ -538,10 +544,6 @@ select {
   padding: 5px;
   text-align: center;
   cursor: pointer;
-}
-
-select option {
-
 }
 
 .title {

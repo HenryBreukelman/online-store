@@ -24,17 +24,19 @@ function CartList (props) {
                 <tbody>
                   {props.items.map((item) => (
                     <tr key={item.id}>
-                      <td className="cart-img"><img src={item.image} alt={item.title}/></td>
+                      <td className="cart-img">
+                        <img src={item.image} alt={item.title}/>
+                      </td>
                       <td className="cart-title">{item.title}</td>
                       <td className="cart-amount">
                         <div className="flex">
                           <p>+</p>
-                          {item.amount}
+                          <p>{item.amount}</p>
                           <p>-</p>
                         </div>
                       </td>
-                      <td className="cart-price">{item.price}</td>
-                      <td className="cart-total">{item.price * item.amount}</td>
+                      <td className="cart-price">${item.price}</td>
+                      <td className="cart-total">${item.price * item.amount}</td>
                     </tr>
                   ))}
                 </tbody>

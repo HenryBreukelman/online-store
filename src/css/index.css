@@ -363,7 +363,7 @@ footer p {
 
 .cart table, .cart th, .cart td {
   border-collapse: collapse;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #949494;
 }
 
 .cart th {
@@ -381,21 +381,32 @@ footer p {
   width: 16%;
 }
 
+.cart-img img {
+  width: 85%;
+  min-width: 80px;
+}
+
 .cart-title {
   padding-left: 12px;
-  width: 50%;
+  width: 48%;
 }
 
 .cart-amount {
   width: 20%;
 }
 
-.cart-price {
-  width: 8%;
+.cart-amount div {
+  width: fit-content;
+  border: 1px solid #949494;
 }
 
-.cart-total {
-  width: 8%;
+.cart-amount p {
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.cart-price, .cart-total {
+  width: 9%;
 }
 
 .empty-cart {
@@ -405,6 +416,7 @@ footer p {
 
 .summary {
   width: 25%;
+  height: fit-content;
   padding: 20px;
   background-color: rgb(221, 221, 221);
   border-top: 2px dotted rgb(125, 125, 125);

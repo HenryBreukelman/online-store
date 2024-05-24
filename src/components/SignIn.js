@@ -36,7 +36,6 @@ function SignIn() {
                 value='Sign In'
                 placeholder='Sign In'
                 disabled={!isValid}
-                /*style button*/
                 style={{ backgroundColor: isValid ? '#5a8db3' : '#d3d3d3' }}
               />
             </div>

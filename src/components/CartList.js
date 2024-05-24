@@ -29,15 +29,15 @@ function CartList (props) {
                         <img src={item.image} alt={item.title}/>
                       </td>
                       <td className="cart-title">{item.title}</td>
-                      <td className="cart-amount">
-                        <div className="flex">
+                      <td className="cart-amount w-22">
+                        <div className="flex justify-center">
                           <p>-</p>
                           <p>{item.amount}</p>
                           <p>+</p>
                         </div>
                       </td>
-                      <td className="cart-price">${item.price}</td>
-                      <td className="cart-total">${item.price * item.amount}</td>
+                      <td className="cart-price w-22">${item.price}</td>
+                      <td className="cart-total w-22">${item.price * item.amount}</td>
                     </tr>
                   ))}
                 </tbody>

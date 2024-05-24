@@ -58,10 +58,10 @@ function Footer() {
         </section>
         <section className='footer-copyright flex align-center'>
           <ul className='flex container'>
-            <li className='main-copyright ta-left'>&copy;2024 storeName, inc</li>
-            <li className='ta-right w-18'>Privacy Policy</li>
-            <li className='ta-right w-18'>APP Privacy Policy</li>
-            <li className='ta-right w-18'>Terms of Use</li>
+            <li className='main-copyright ta-left'>&copy;2024 FASHION FUSION, inc</li>
+            <li className='ta-center w-18'>Privacy Policy</li>
+            <li className='ta-center w-18'>APP Privacy Policy</li>
+            <li className='ta-center w-18'>Terms of Use</li>
             <li className='ta-right w-18'>Accessibility Statement</li>
           </ul>
         </section>

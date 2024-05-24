@@ -3,7 +3,7 @@
   margin-inline: auto;
 }
 
-h1, h2, h3, h4, p, li, a, input, button, select {
+h1, h2, h3, h4, p, li, a, input, button, select, option {
   font-family: "Poppins", sans-serif;
   color: #000;
 }
@@ -83,6 +83,10 @@ html {
   text-align: left;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 /*---------------------------------------------------------------*/
 /*    header                                                     */
 /*---------------------------------------------------------------*/
@@ -93,6 +97,7 @@ header {
 
 header h1 {
   font-size: 35px;
+  text-transform: uppercase;
 }
 
 header p {
@@ -170,8 +175,6 @@ nav ul li, .lang-p {
   font-size: 30px;
 }
 
-
-
 /*------------------------------------------------------------*/
 /*    hero banner                                             */
 /*------------------------------------------------------------*/
@@ -241,7 +244,7 @@ nav ul li, .lang-p {
 
 .sign-in input[type=email], .sign-in input[type=password] {
   width: 700px;
-  padding: 0 14px;
+  padding: 0 16px;
   font-size: 18px;
 }
 
@@ -256,7 +259,7 @@ nav ul li, .lang-p {
 
 
 .sign-in input[type=submit] {
-  margin: 25px 0 50px;
+  margin: 25px 0 40px;
   width: 160px;
   font-size: 20px;
   font-weight: 600;
@@ -266,7 +269,7 @@ nav ul li, .lang-p {
 
 .sign-in p {
   font-size: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   cursor: pointer;
 }
 
@@ -395,12 +398,8 @@ footer p {
   width: 48%;
 }
 
-.cart-amount {
-  width: 20%;
-}
-
 .cart-amount div {
-  width: fit-content;
+  width: 60px;
   border: 1px solid #949494;
 }
 
@@ -410,15 +409,14 @@ footer p {
   cursor: pointer;
 }
 
-.cart-price, .cart-total {
-  width: 9%;
+.cart-amount, .cart-price, .cart-total {
+  width: 15%;
 }
 
 .empty-cart {
   font-size: 20px;
   text-align: center;
 }
-
 
 .summary {
   width: 25%;
@@ -538,6 +536,12 @@ select {
   border: 1px solid #000;
   background-color: #fff;
   padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+select option {
+
 }
 
 .title {

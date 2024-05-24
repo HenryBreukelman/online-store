@@ -13,9 +13,8 @@ function Header() {
         <section className='flex'>
           <div className='store-title'>
             <Link to='/' className="home-link">
-              <h1>storeName</h1>
+              <h1>fashion fusion</h1>
             </Link>
-            
           </div>
           <div className='flex w-22 align-center mr-35'>
             <IoLocationOutline className='header-icon access-icon' />

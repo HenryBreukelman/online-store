@@ -493,6 +493,7 @@ footer p {
 }
 
 .item {
+  transition: all 0.25s ease-in-out;
   padding: 10px;
   text-align: left;
   width: 255px;

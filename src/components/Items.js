@@ -9,7 +9,6 @@ function Items() {
       const response = await fetch("https://fakestoreapi.com/products");
       const data = await response.json();
       const clothingItems = data.filter(item => item.category.includes('clothing'));
-      console.log('Fetched data:', clothingItems); // Log the fetched data
       setItems(clothingItems);
     };
 
